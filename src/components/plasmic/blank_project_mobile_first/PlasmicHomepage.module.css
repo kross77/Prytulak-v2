@@ -13,6 +13,7 @@
   height: auto;
   display: inline-flex;
   flex-direction: column;
+  padding: 3rem;
 }
 .frame10 > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -84,13 +85,97 @@
 }
 .freeBox__sz4Ev {
   display: block;
-  font-size: 25px;
+  font-size: 2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   letter-spacing: 0em;
   line-height: 100%;
   color: rgba(76, 76, 76, 1);
   position: relative;
+  width: 30rem;
+  text-align: center;
+}
+.freeBox__ezlIw {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox__ezlIw > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 10px);
+  height: calc(100% + 10px);
+}
+.freeBox__ezlIw > :global(.__wab_flex-container) > *,
+.freeBox__ezlIw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ezlIw > :global(.__wab_flex-container) > picture > img,
+.freeBox__ezlIw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 10px;
+}
+.freeBox__jCW {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 2rem;
+}
+.frame11 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 39px);
+  height: calc(100% + 39px);
+}
+.frame11 > :global(.__wab_flex-container) > *,
+.frame11 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame11 > :global(.__wab_flex-container) > picture > img,
+.frame11
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 39px;
+}
+.freeBox__t3IZ {
+  display: block;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
   width: 270px;
   text-align: center;
+}
+.прытулакгэтапраеднасцьмынесуддзіміншыхлюдзейзатоештоянызрабіліцінемыпростанамагаемсярабіцьсваюсправудобрапрытулакгэтадапамогабеларусамукіевеякіяпапаліпаджорнавысістэмыівымушаныбылінепасваейволіпакідацьрадзімупрытулакгэтанепростадапамогагэтажаданнепадзяліццалюбоўюдацьчалавекуразуменнеіадчуваннетагоштовырашэннеягоныхпраблемгэтаячшэаднаперамогаабноўленнайбеларусіпадзяліццалюбоўюіпадтрымацьсуайчыннікаўцяжкімдляягостановішчыпрытулакгэтатакаяжлюбоўдасваіхваланцераўілюдзейякіяахвяруюцьсвойчаснаблагадзейнасцькабянымагліспакойназаймаццасваейсправайнедумаючыпратоеякзарабіцьнажыццеупрытулкупрымагчымасцімыхочамдаведваццабольшпраадзінаднагодзяліццавопытамарганізовацьcумесныямерапрыемствыіпростагубляцьчасўаттачэнніблізкіхсяброў {
+  display: block;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
+  width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+@media (min-width: 768px) {
+  .прытулакгэтапраеднасцьмынесуддзіміншыхлюдзейзатоештоянызрабіліцінемыпростанамагаемсярабіцьсваюсправудобрапрытулакгэтадапамогабеларусамукіевеякіяпапаліпаджорнавысістэмыівымушаныбылінепасваейволіпакідацьрадзімупрытулакгэтанепростадапамогагэтажаданнепадзяліццалюбоўюдацьчалавекуразуменнеіадчуваннетагоштовырашэннеягоныхпраблемгэтаячшэаднаперамогаабноўленнайбеларусіпадзяліццалюбоўюіпадтрымацьсуайчыннікаўцяжкімдляягостановішчыпрытулакгэтатакаяжлюбоўдасваіхваланцераўілюдзейякіяахвяруюцьсвойчаснаблагадзейнасцькабянымагліспакойназаймаццасваейсправайнедумаючыпратоеякзарабіцьнажыццеупрытулкупрымагчымасцімыхочамдаведваццабольшпраадзінаднагодзяліццавопытамарганізовацьcумесныямерапрыемствыіпростагубляцьчасўаттачэнніблізкіхсяброў {
+    width: 636px;
+  }
 }
