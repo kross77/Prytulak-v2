@@ -1,0 +1,210 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #f3e070;
+  min-width: 0;
+  min-height: 0;
+}
+.frame10 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.frame10 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 29px);
+  height: calc(100% + 29px);
+}
+.frame10 > :global(.__wab_flex-container) > *,
+.frame10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame10 > :global(.__wab_flex-container) > picture > img,
+.frame10
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 29px;
+}
+.frame9 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame9 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame9 > :global(.__wab_flex-container) > *,
+.frame9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame9 > :global(.__wab_flex-container) > picture > img,
+.frame9
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  width: 190.939px;
+  height: 134px;
+  display: block;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__j9ZYe {
+  display: block;
+  font-size: 46.666px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
+  width: 240px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.freeBox__kXwWu {
+  display: block;
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
+  width: 30rem;
+  text-align: center;
+  height: auto;
+}
+.frame11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 2rem;
+}
+.frame11 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 39px);
+  height: calc(100% + 39px);
+}
+.frame11 > :global(.__wab_flex-container) > *,
+.frame11 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame11 > :global(.__wab_flex-container) > picture > img,
+.frame11
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 39px;
+}
+@media (min-width: 768px) {
+  .frame11 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .frame11 > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 39px);
+    height: calc(100% + 39px);
+  }
+}
+@media (min-width: 768px) {
+  .frame11 > :global(.__wab_flex-container) > *,
+  .frame11 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .frame11 > :global(.__wab_flex-container) > picture > img,
+  .frame11
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 39px;
+  }
+}
+.freeBox__gusiN {
+  display: block;
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
+  width: 270px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .freeBox__gusiN {
+    display: block;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 100%;
+    color: rgba(76, 76, 76, 1);
+    position: relative;
+    width: 270px;
+    text-align: center;
+  }
+}
+.прытулакгэтапраеднасцьмынесуддзіміншыхлюдзейзатоештоянызрабіліцінемыпростанамагаемсярабіцьсваюсправудобрапрытулакгэтадапамогабеларусамукіевеякіяпапаліпаджорнавысістэмыівымушаныбылінепасваейволіпакідацьрадзімупрытулакгэтанепростадапамогагэтажаданнепадзяліццалюбоўюдацьчалавекуразуменнеіадчуваннетагоштовырашэннеягоныхпраблемгэтаячшэаднаперамогаабноўленнайбеларусіпадзяліццалюбоўюіпадтрымацьсуайчыннікаўцяжкімдляягостановішчыпрытулакгэтатакаяжлюбоўдасваіхваланцераўілюдзейякіяахвяруюцьсвойчаснаблагадзейнасцькабянымагліспакойназаймаццасваейсправайнедумаючыпратоеякзарабіцьнажыццеупрытулкупрымагчымасцімыхочамдаведваццабольшпраадзінаднагодзяліццавопытамарганізовацьcумесныямерапрыемствыіпростагубляцьчасўаттачэнніблізкіхсяброў {
+  display: block;
+  font-size: 1.3rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(76, 76, 76, 1);
+  position: relative;
+  width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+@media (min-width: 768px) {
+  .прытулакгэтапраеднасцьмынесуддзіміншыхлюдзейзатоештоянызрабіліцінемыпростанамагаемсярабіцьсваюсправудобрапрытулакгэтадапамогабеларусамукіевеякіяпапаліпаджорнавысістэмыівымушаныбылінепасваейволіпакідацьрадзімупрытулакгэтанепростадапамогагэтажаданнепадзяліццалюбоўюдацьчалавекуразуменнеіадчуваннетагоштовырашэннеягоныхпраблемгэтаячшэаднаперамогаабноўленнайбеларусіпадзяліццалюбоўюіпадтрымацьсуайчыннікаўцяжкімдляягостановішчыпрытулакгэтатакаяжлюбоўдасваіхваланцераўілюдзейякіяахвяруюцьсвойчаснаблагадзейнасцькабянымагліспакойназаймаццасваейсправайнедумаючыпратоеякзарабіцьнажыццеупрытулкупрымагчымасцімыхочамдаведваццабольшпраадзінаднагодзяліццавопытамарганізовацьcумесныямерапрыемствыіпростагубляцьчасўаттачэнніблізкіхсяброў {
+    width: 636px;
+    display: block;
+    font-size: 1.3rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 100%;
+    color: rgba(76, 76, 76, 1);
+    position: relative;
+    text-align: center;
+  }
+}

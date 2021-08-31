@@ -50,6 +50,16 @@
           "assetId": "w9z9xr91BzfJBdGd9K1NM4",
           "type": "projectCss",
           "checksum": "78b28c7819f09e1fefda33c33e44d8f9"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "aKN3gg75te",
+          "checksum": "01c6f10a3d104f1b2c3bbd5cafbeacc2"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "aKN3gg75te",
+          "checksum": "01c6f10a3d104f1b2c3bbd5cafbeacc2"
         }
       ]
     }

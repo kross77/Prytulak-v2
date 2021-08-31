@@ -65,6 +65,19 @@
           "cssFilePath": "plasmic/prytular/PlasmicManifest.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "aKN3gg75te",
+          "name": "Manifest2",
+          "type": "managed",
+          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+          "renderModuleFilePath": "plasmic/prytular/PlasmicManifest2.tsx",
+          "importSpec": {
+            "modulePath": "Manifest2.tsx"
+          },
+          "cssFilePath": "plasmic/prytular/PlasmicManifest2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
