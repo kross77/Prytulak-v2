@@ -39,6 +39,32 @@
           "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "xidBG5GAId",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ObvQXRNt7V",
+          "name": "Manifest",
+          "type": "managed",
+          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+          "renderModuleFilePath": "plasmic/blank_project_mobile_first/PlasmicManifest.tsx",
+          "importSpec": {
+            "modulePath": "Manifest.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicManifest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],

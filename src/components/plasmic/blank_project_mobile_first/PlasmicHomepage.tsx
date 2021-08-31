@@ -30,6 +30,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: xidBG5GAId/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -128,6 +129,56 @@ function PlasmicHomepage__RenderFunc(props: {
             >
               {"Жылле для уцякачоў з Беларусі ў Кіеве"}
             </div>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.freeBox__ezlIw)}
+            >
+              <Button
+                className={classNames("__wab_instance", sty.button__ayseC)}
+                label={"Хочу помочь"}
+                to={"https://forms.gle/MDj5nWeNGkpkyWrc8" as const}
+              />
+
+              <Button
+                className={classNames("__wab_instance", sty.button__yv8V7)}
+                label={"Мне нужна помощь"}
+              />
+
+              <Button
+                className={classNames("__wab_instance", sty.button__otn6H)}
+                label={"Хочу стать волонтером"}
+              />
+            </p.Stack>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.freeBox__jCW)}
+          >
+            <a
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__lnq79
+              )}
+              href={"/manifest" as const}
+            >
+              {"Манифест"}
+            </a>
+
+            <a
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__kMqxK
+              )}
+              href={"/manifest" as const}
+            >
+              {"Манифест"}
+            </a>
           </p.Stack>
         </div>
       </div>
