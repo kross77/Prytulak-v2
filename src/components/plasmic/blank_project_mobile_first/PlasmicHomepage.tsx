@@ -173,7 +173,18 @@ function PlasmicHomepage__RenderFunc(props: {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.link__kMqxK
+                sty.link__awq2S
+              )}
+              href={"/manifest" as const}
+            >
+              {"Манифест"}
+            </a>
+
+            <a
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__wGaXk
               )}
               href={"/manifest" as const}
             >
