@@ -1,6 +1,16 @@
 {
   "props": [
     {
+      "name": "Red",
+      "type": "color",
+      "value": "#CC0000",
+      "category": "color",
+      "meta": {
+        "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+        "id": "MPWdqiXl0"
+      }
+    },
+    {
       "name": "UnnamedStyleToken",
       "type": "color",
       "value": "#F3E070",

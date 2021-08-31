@@ -23,7 +23,7 @@
   "projects": [
     {
       "projectId": "w9z9xr91BzfJBdGd9K1NM4",
-      "projectName": "Blank project (mobile-first)",
+      "projectName": "Prytular",
       "version": "latest",
       "cssFilePath": "plasmic/blank_project_mobile_first/plasmic_blank_project_mobile_first.module.css",
       "components": [
@@ -37,6 +37,32 @@
             "modulePath": "Homepage.tsx"
           },
           "cssFilePath": "plasmic/blank_project_mobile_first/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "xidBG5GAId",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+          "renderModuleFilePath": "plasmic/prytular/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/prytular/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ObvQXRNt7V",
+          "name": "Manifest",
+          "type": "managed",
+          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
+          "renderModuleFilePath": "plasmic/prytular/PlasmicManifest.tsx",
+          "importSpec": {
+            "modulePath": "Manifest.tsx"
+          },
+          "cssFilePath": "plasmic/prytular/PlasmicManifest.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }
