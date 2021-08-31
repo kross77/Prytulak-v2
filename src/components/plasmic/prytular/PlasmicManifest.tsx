@@ -38,7 +38,8 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "../blank_project_mobile_first/plasmic_blank_project_mobile_first.module.css"; // plasmic-import: w9z9xr91BzfJBdGd9K1NM4/projectcss
 import * as sty from "./PlasmicManifest.module.css"; // plasmic-import: ObvQXRNt7V/css
 
-import prytulakLogoLxzuuNiCf from "../blank_project_mobile_first/images/prytulakLogo.svg"; // plasmic-import: lxzuuNI-cf/picture
+import Ellipse2Icon from "../prytulak/icons/PlasmicIcon__Ellipse2"; // plasmic-import: o2LFLcguMd/icon
+import group7520OmY6YnUp from "../prytulak/images/group75.svg"; // plasmic-import: 20omY6YNUp/picture
 
 export type PlasmicManifest__VariantMembers = {};
 
@@ -54,6 +55,9 @@ export type PlasmicManifest__OverridesType = {
   root?: p.Flex<"div">;
   frame10?: p.Flex<"div">;
   frame9?: p.Flex<"div">;
+  imageimage6?: p.Flex<"div">;
+  svg?: p.Flex<"svg">;
+  maskGroup?: p.Flex<"div">;
   img?: p.Flex<"img">;
   frame11?: p.Flex<"div">;
   прытулакГэтаПраЕднасцьМыНеСуддзімІншыхЛюдзейЗаТоеШтоЯныЗрабіліЦіНеМыПростаНамагаемсяРабіцьСваюСправуДобраПрытулакГэтаДапамогаБеларусамУКіевеЯкіяПапаліПадЖорнавыСістэмыІВымушаныБыліНеПаСваейВоліПакідацьРадзімуПрытулакГэтаНеПростаДапамогаГэтаЖаданнеПадзяліццаЛюбоўюДацьЧалавекуРазуменнеІАдчуваннеТагоШтоВырашэннеЯгоныхПраблемГэтаЯчшэАднаПерамогаАбноўленнайБеларусіПадзяліццаЛюбоўюІПадтрымацьСуайчыннікаЎЦяжкімДляЯгоСтановішчыПрытулакГэтаТакаяЖЛюбоўДаСваіхВаланцераўІЛюдзейЯкіяАхвяруюцьСвойЧасНаБлагадзейнасцьКабЯныМагліСпакойнаЗаймаццаСваейСправайНеДумаючыПраТоеЯкЗарабіцьНаЖыццеУПрытулкуПрыМагчымасціМыХочамДаведваццаБольшПраАдзінАднагоДзяліццаВопытамАрганізовацьCумесныяМерапрыемствыІПростаГубляцьЧасЎАттачэнніБлізкіхСяброў?: p.Flex<"div">;
@@ -107,15 +111,6 @@ function PlasmicManifest__RenderFunc(props: {
               hasGap={true}
               className={classNames(defaultcss.all, sty.frame9)}
             >
-              <img
-                data-plasmic-name={"img"}
-                data-plasmic-override={overrides.img}
-                alt={""}
-                className={classNames(defaultcss.img, sty.img)}
-                role={"img"}
-                src={prytulakLogoLxzuuNiCf}
-              />
-
               <div
                 className={classNames(
                   defaultcss.all,
@@ -126,6 +121,36 @@ function PlasmicManifest__RenderFunc(props: {
                 {"Прытулак"}
               </div>
             </p.Stack>
+
+            <div
+              data-plasmic-name={"imageimage6"}
+              data-plasmic-override={overrides.imageimage6}
+              className={classNames(defaultcss.all, sty.imageimage6)}
+            >
+              {true ? (
+                <Ellipse2Icon
+                  data-plasmic-name={"svg"}
+                  data-plasmic-override={overrides.svg}
+                  className={classNames(defaultcss.all, sty.svg)}
+                  role={"img"}
+                />
+              ) : null}
+
+              <div
+                data-plasmic-name={"maskGroup"}
+                data-plasmic-override={overrides.maskGroup}
+                className={classNames(defaultcss.all, sty.maskGroup)}
+              >
+                <img
+                  data-plasmic-name={"img"}
+                  data-plasmic-override={overrides.img}
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img)}
+                  role={"img"}
+                  src={group7520OmY6YnUp}
+                />
+              </div>
+            </div>
 
             <div
               className={classNames(
@@ -186,6 +211,9 @@ const PlasmicDescendants = {
     "root",
     "frame10",
     "frame9",
+    "imageimage6",
+    "svg",
+    "maskGroup",
     "img",
     "frame11",
     "прытулакГэтаПраЕднасцьМыНеСуддзімІншыхЛюдзейЗаТоеШтоЯныЗрабіліЦіНеМыПростаНамагаемсяРабіцьСваюСправуДобраПрытулакГэтаДапамогаБеларусамУКіевеЯкіяПапаліПадЖорнавыСістэмыІВымушаныБыліНеПаСваейВоліПакідацьРадзімуПрытулакГэтаНеПростаДапамогаГэтаЖаданнеПадзяліццаЛюбоўюДацьЧалавекуРазуменнеІАдчуваннеТагоШтоВырашэннеЯгоныхПраблемГэтаЯчшэАднаПерамогаАбноўленнайБеларусіПадзяліццаЛюбоўюІПадтрымацьСуайчыннікаЎЦяжкімДляЯгоСтановішчыПрытулакГэтаТакаяЖЛюбоўДаСваіхВаланцераўІЛюдзейЯкіяАхвяруюцьСвойЧасНаБлагадзейнасцьКабЯныМагліСпакойнаЗаймаццаСваейСправайНеДумаючыПраТоеЯкЗарабіцьНаЖыццеУПрытулкуПрыМагчымасціМыХочамДаведваццаБольшПраАдзінАднагоДзяліццаВопытамАрганізовацьCумесныяМерапрыемствыІПростаГубляцьЧасЎАттачэнніБлізкіхСяброў"
@@ -193,11 +221,17 @@ const PlasmicDescendants = {
   frame10: [
     "frame10",
     "frame9",
+    "imageimage6",
+    "svg",
+    "maskGroup",
     "img",
     "frame11",
     "прытулакГэтаПраЕднасцьМыНеСуддзімІншыхЛюдзейЗаТоеШтоЯныЗрабіліЦіНеМыПростаНамагаемсяРабіцьСваюСправуДобраПрытулакГэтаДапамогаБеларусамУКіевеЯкіяПапаліПадЖорнавыСістэмыІВымушаныБыліНеПаСваейВоліПакідацьРадзімуПрытулакГэтаНеПростаДапамогаГэтаЖаданнеПадзяліццаЛюбоўюДацьЧалавекуРазуменнеІАдчуваннеТагоШтоВырашэннеЯгоныхПраблемГэтаЯчшэАднаПерамогаАбноўленнайБеларусіПадзяліццаЛюбоўюІПадтрымацьСуайчыннікаЎЦяжкімДляЯгоСтановішчыПрытулакГэтаТакаяЖЛюбоўДаСваіхВаланцераўІЛюдзейЯкіяАхвяруюцьСвойЧасНаБлагадзейнасцьКабЯныМагліСпакойнаЗаймаццаСваейСправайНеДумаючыПраТоеЯкЗарабіцьНаЖыццеУПрытулкуПрыМагчымасціМыХочамДаведваццаБольшПраАдзінАднагоДзяліццаВопытамАрганізовацьCумесныяМерапрыемствыІПростаГубляцьЧасЎАттачэнніБлізкіхСяброў"
   ],
-  frame9: ["frame9", "img"],
+  frame9: ["frame9"],
+  imageimage6: ["imageimage6", "svg", "maskGroup", "img"],
+  svg: ["svg"],
+  maskGroup: ["maskGroup", "img"],
   img: ["img"],
   frame11: [
     "frame11",
@@ -215,6 +249,9 @@ type NodeDefaultElementType = {
   root: "div";
   frame10: "div";
   frame9: "div";
+  imageimage6: "div";
+  svg: "svg";
+  maskGroup: "div";
   img: "img";
   frame11: "div";
   прытулакГэтаПраЕднасцьМыНеСуддзімІншыхЛюдзейЗаТоеШтоЯныЗрабіліЦіНеМыПростаНамагаемсяРабіцьСваюСправуДобраПрытулакГэтаДапамогаБеларусамУКіевеЯкіяПапаліПадЖорнавыСістэмыІВымушаныБыліНеПаСваейВоліПакідацьРадзімуПрытулакГэтаНеПростаДапамогаГэтаЖаданнеПадзяліццаЛюбоўюДацьЧалавекуРазуменнеІАдчуваннеТагоШтоВырашэннеЯгоныхПраблемГэтаЯчшэАднаПерамогаАбноўленнайБеларусіПадзяліццаЛюбоўюІПадтрымацьСуайчыннікаЎЦяжкімДляЯгоСтановішчыПрытулакГэтаТакаяЖЛюбоўДаСваіхВаланцераўІЛюдзейЯкіяАхвяруюцьСвойЧасНаБлагадзейнасцьКабЯныМагліСпакойнаЗаймаццаСваейСправайНеДумаючыПраТоеЯкЗарабіцьНаЖыццеУПрытулкуПрыМагчымасціМыХочамДаведваццаБольшПраАдзінАднагоДзяліццаВопытамАрганізовацьCумесныяМерапрыемствыІПростаГубляцьЧасЎАттачэнніБлізкіхСяброў: "div";
@@ -283,6 +320,9 @@ export const PlasmicManifest = Object.assign(
     // Helper components rendering sub-elements
     frame10: makeNodeComponent("frame10"),
     frame9: makeNodeComponent("frame9"),
+    imageimage6: makeNodeComponent("imageimage6"),
+    svg: makeNodeComponent("svg"),
+    maskGroup: makeNodeComponent("maskGroup"),
     img: makeNodeComponent("img"),
     frame11: makeNodeComponent("frame11"),
     прытулакГэтаПраЕднасцьМыНеСуддзімІншыхЛюдзейЗаТоеШтоЯныЗрабіліЦіНеМыПростаНамагаемсяРабіцьСваюСправуДобраПрытулакГэтаДапамогаБеларусамУКіевеЯкіяПапаліПадЖорнавыСістэмыІВымушаныБыліНеПаСваейВоліПакідацьРадзімуПрытулакГэтаНеПростаДапамогаГэтаЖаданнеПадзяліццаЛюбоўюДацьЧалавекуРазуменнеІАдчуваннеТагоШтоВырашэннеЯгоныхПраблемГэтаЯчшэАднаПерамогаАбноўленнайБеларусіПадзяліццаЛюбоўюІПадтрымацьСуайчыннікаЎЦяжкімДляЯгоСтановішчыПрытулакГэтаТакаяЖЛюбоўДаСваіхВаланцераўІЛюдзейЯкіяАхвяруюцьСвойЧасНаБлагадзейнасцьКабЯныМагліСпакойнаЗаймаццаСваейСправайНеДумаючыПраТоеЯкЗарабіцьНаЖыццеУПрытулкуПрыМагчымасціМыХочамДаведваццаБольшПраАдзінАднагоДзяліццаВопытамАрганізовацьCумесныяМерапрыемствыІПростаГубляцьЧасЎАттачэнніБлізкіхСяброў:

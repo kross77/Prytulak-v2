@@ -32,6 +32,8 @@ import {
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: xidBG5GAId/component
 
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 6KPrwB1vc_/globalVariant
+
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_blank_project_mobile_first.module.css"; // plasmic-import: w9z9xr91BzfJBdGd9K1NM4/projectcss
@@ -68,6 +70,10 @@ function PlasmicHomepage__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
 
   return (
     <React.Fragment>

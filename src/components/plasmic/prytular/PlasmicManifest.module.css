@@ -56,20 +56,6 @@
   > img {
   margin-top: 8px;
 }
-.img {
-  position: relative;
-  object-fit: cover;
-  width: 190.939px;
-  height: 134px;
-  display: block;
-  flex-shrink: 0;
-}
-.img > picture > img {
-  object-fit: cover;
-}
-.img > .__wab_img-spacer > img {
-  object-fit: cover;
-}
 .freeBox__mvwSc {
   display: block;
   font-size: 46.666px;
@@ -82,6 +68,49 @@
   width: 240px;
   height: 56px;
   flex-shrink: 0;
+}
+.imageimage6 {
+  width: 168px;
+  height: 168px;
+  display: block;
+  transform: scaleX(1.5) scaleY(1.5) scaleZ(1);
+  flex-shrink: 0;
+}
+.svg {
+  position: absolute;
+  object-fit: cover;
+  width: 146px;
+  height: 146px;
+  color: #fff;
+  display: block;
+  top: 9px;
+  left: 9px;
+}
+.maskGroup {
+  width: 146px;
+  height: 146px;
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  -webkit-mask-image: url("./../prytulak/images/ellipse1.svg");
+  -webkit-mask-size: 146px 146px;
+  -webkit-mask-repeat: no-repeat;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  width: 117.156px;
+  height: 137.158px;
+  display: block;
+  top: 6px;
+  left: 10px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .freeBox__q2Ufm {
   display: block;

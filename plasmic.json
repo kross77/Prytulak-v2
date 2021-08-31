@@ -65,27 +65,30 @@
           "cssFilePath": "plasmic/prytular/PlasmicManifest.module.css",
           "scheme": "blackbox",
           "componentType": "page"
-        },
-        {
-          "id": "aKN3gg75te",
-          "name": "Manifest2",
-          "type": "managed",
-          "projectId": "w9z9xr91BzfJBdGd9K1NM4",
-          "renderModuleFilePath": "plasmic/prytular/PlasmicManifest2.tsx",
-          "importSpec": {
-            "modulePath": "Manifest2.tsx"
-          },
-          "cssFilePath": "plasmic/prytular/PlasmicManifest2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "o2LFLcguMd",
+          "name": "Ellipse2Icon",
+          "moduleFilePath": "plasmic/prytulak/icons/PlasmicIcon__Ellipse2.tsx"
+        }
+      ],
       "images": [
         {
           "id": "lxzuuNI-cf",
           "name": "prytulak-logo",
           "filePath": "plasmic/blank_project_mobile_first/images/prytulakLogo.svg"
+        },
+        {
+          "id": "20omY6YNUp",
+          "name": "Group 75",
+          "filePath": "plasmic/prytulak/images/group75.svg"
+        },
+        {
+          "id": "xRxGn90SLM",
+          "name": "Ellipse 1",
+          "filePath": "plasmic/prytulak/images/ellipse1.svg"
         }
       ],
       "codeComponents": [],
